@@ -1,20 +1,49 @@
+body {
+	background-image: url("bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 97vh;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.title {
+	margin: auto;
+	margin-top: 2rem;
+	text-align: center;
+}
+
 #people {
 	display: block;
 	padding-left: 0;
-	border: black 1px solid;
 	list-style: none;
 }
 
 #people li {
 	display: inline;
 	margin-right: 10px;
-	border: black 1px solid;
+}
+
+.status {
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+.sliders {
+	margin-left: 60px;
 }
 
 #economy {
 	display: block;
 	padding-left: 0;
-	border: black 1px solid;
 	list-style: none;
 }
 
@@ -30,5 +59,3 @@ button {
 	margin: 30px 25px 0 0;
 	padding: 10px 15px;
 }
-
-
